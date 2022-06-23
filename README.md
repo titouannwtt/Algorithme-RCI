@@ -1,6 +1,7 @@
 <div id="top"></div>
 
-Pour suivre mes autres projets -> [![LinkedIn][linkedin-shield]][linkedin-url]
+Pour suivre mes autres projets :
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Algorithme RCI : Algorithme de Recherche de Combinaisons d'Indicateurs performantes en timeframe 5 minutes
 
