@@ -1,6 +1,7 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+Pour suivre mes autres projets -> [![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Algorithme RCI : Algorithme de Recherche de Combinaisons d'Indicateurs performantes en timeframe 5 minutes
 
 Dépôt GitHub dédié à la recherche de combinaisons d'indicateurs intéressantes dans l'optique de déterminer de bonnes stratégies à appliquer à des bots de trading en timeframe 5 minutes.
