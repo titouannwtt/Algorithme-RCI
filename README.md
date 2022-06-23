@@ -1,3 +1,6 @@
+<div id="top"></div>
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 # Recherche de combinaisons d'indicateurs en timeframe 5 minutes
 
 Dépôt GitHub dédié à la recherche de combinaisons d'indicateurs intéressantes dans l'optique de déterminer de bonnes stratégies à appliquer à des bots de trading en timeframe 5 minutes.
