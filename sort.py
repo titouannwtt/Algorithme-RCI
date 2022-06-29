@@ -10,8 +10,8 @@ import telegram_send
 #   VALEUR PAR DEFAUT
 ##########################
 
-csv="all_results.csv"
-bestValuecsv="best_results.csv"
+csv="/home/moutonneux/bots/backtest/backtest-indicateur/all_results.csv"
+bestValuecsv="/home/moutonneux/bots/backtest/backtest-indicateur/best_results.csv"
 argumentList = sys.argv[1:]
 bestValue=0.0
 try :

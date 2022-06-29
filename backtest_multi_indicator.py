@@ -1,7 +1,7 @@
 ################################################################
 import sys, getopt
 import sys
-sys.path.append( 'utilities' )
+sys.path.append( '../utilities' )
 from data_engine import DataEngine
 from backtesting import Backtesting
 from backtesting import Backtesting
@@ -11,7 +11,7 @@ import ta
 import others as o1
 import ccxt
 import json
-f = open('database/pair_list.json',)
+f = open('../database/pair_list.json',)
 pairJson = json.load(f)
 f.close()
 #import pandas_ta as pda

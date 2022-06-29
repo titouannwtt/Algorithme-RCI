@@ -598,4 +598,4 @@ for j in range(2):
 
 print(classement.head())
 classement.to_csv(fichierEnregistrement)
-telegram_send.send(messages=[f"Votre algorithme de combinaison d'indicateurs a enregistré toutes les données dans {fichierEnregistrement}"])
+telegram_send.send(messages=[f"Votre algorithme sur backtest a enregistré toutes les données dans {fichierEnregistrement}"])
