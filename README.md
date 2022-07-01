@@ -4,11 +4,11 @@ Pour suivre mes autres projets :
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Algorithme RCI : Algorithme de Recherche de Combinaisons d'Indicateurs performantes en timeframe 5 minutes
+# Algorithme RCI : Algorithme de Recherche de Combinaisons d'Indicateurs performantes
 
-Dépôt GitHub dédié à la recherche de combinaisons d'indicateurs intéressantes dans l'optique de déterminer de bonnes stratégies à appliquer à des bots de trading en timeframe 5 minutes.
+Dépôt GitHub dédié à la recherche de combinaisons d'indicateurs intéressantes dans l'optique de déterminer de bonnes stratégies à appliquer à des bots de trading.
 
-Le backtest suivant ("backtest_multi_indicator.py") est sur une timeframe de 5 minutes avec un solde de départ de 1000$. Il permet, mélangé à un algorithme ("algo_multi_indicator.py"), de tester des combinaisons d'indicateurs possibles (jusqu'à 4 simultanément d'après les configurations par défaut). La stratégie fait uniquement des LONG et le backtest a été réalisé sur une période de baisse (entre janvier 2022 et mars 2022).
+Le backtest suivant ("backtest_multi_indicator.py") est sur différentes timeframes avec un solde de départ de 1000$. Il permet, mélangé à un algorithme ("algo_multi_indicator.py"), de tester des combinaisons d'indicateurs possibles (jusqu'à 4 simultanément d'après les configurations par défaut). La stratégie fait uniquement des LONG et le backtest a été réalisé sur une période de baisse (entre janvier 2022 et mars 2022).
 Les résultats des combinaisons sont enregistrés dans un fichier csv ("algo_multi_indicator.csv"), il est ensuite possible d'executer "sort.py" qui va trier les résultats dans un nouveau csv : "all_result.csv". On enregistrera également tous les résultats dont le solde final est supérieur à 1050.0$ dans le fichier "best_results.csv".
 Une fois l'exécution totalement achevée, on sera en mesure de déterminer des bonnes combinaisons d'indicateurs performantes sur cette période en timeframe 5 minutes dans l'objectif de créer une stratégie rentable. 
 On pourra ensuite tenter de faire varier les paramètres de ces indicateurs pour essayer d'améliorer les performances, en utilisant https://github.com/titouannwtt/Analyseur-PBM par exemple.
